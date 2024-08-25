@@ -3,7 +3,29 @@ html,body{
     height: 100%;
     background-color: hsl(47, 88%, 63%);
 }
-
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+.main{
+    width: 350px;
+    border: 2px solid hsl(0, 0%, 7%);
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 7px 8px black;
+}
+.image img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+    
+}
 
 
 
